@@ -1,5 +1,5 @@
 export const wordsList = {
-  carro: [
+  peças_carro: [
     "Motor", "Porta", "Capô", "Pneu", "Antena", "Volante",
     "Farol", "Câmbio", "Freio", "Vidro", "Buzina", "Estepe",
     "Espelho", "Marcha", "Embreagem", "Radiador", "Suspensão",
