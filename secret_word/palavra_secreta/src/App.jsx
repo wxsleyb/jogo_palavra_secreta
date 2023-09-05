@@ -62,7 +62,7 @@ function App() {
 
     let wordLetters = word.split("")
     wordLetters = wordLetters.map((letra) => letra.toLowerCase());
-    console.log(wordLetters)
+    
 
     //preencher estados
 
@@ -70,7 +70,7 @@ function App() {
     setPickedCategory(category);
     setLetters(wordLetters)
 
-    console.log(category, word)
+    
     setGameStage(stages[1].name)
   }, [pickWordAndCategory])
 
@@ -97,8 +97,7 @@ function App() {
       setGuesses((actualGuesses) => actualGuesses - 1)
     }
 
-    console.log(guessedLetters)
-    console.log(wrongLetters)
+  
   }
 
   const clearLetterStates = () =>{
@@ -129,7 +128,7 @@ function App() {
       //reiniciar o jogo com uma nova palavra
       startGame()
     }
-    console.log(uniqueLetters)
+    
   }, [guessedLetters, letters, startGame])
   //reinicia o jogo
   const retryGame = () =>{
