@@ -60,7 +60,7 @@ export const wordsList = {
     "Neodímio", "Praseodímio", "Promécio", "Astato", "Rutênio"
   ],
   cafe_da_manhã: ["Cereal", "Torrada", "Omelete", "Panqueca", "Iogurte", "Suco de laranja", "Café", "Leite", "Geléia", "Bacon", "Presunto", "Queijo", "Croissant", "Waffles", "Muffin"],
-  componenentes_livro: ["Capa", "Páginas", "Lombar", "Índice", "Prefácio", "Epílogo", "Glossário", "Citação", "Bibliografia", "Notas de rodapé", "Sumário", "Dedicatória", "Editora", "Autor", "Ilustrações"],
+  componenentes_livro: ["Capa", "Páginas", "Índice", "Prefácio", "Glossário", "Citação", "Bibliografia", "Sumário", "Editora", "Autor", "Ilustrações"],
   hobbies: ["Pintura", "Leitura", "Jardinagem", "Fotografia", "Artesanato", "Pesca", "Modelagem", "Dança", "Cozinhar", "Esportes radicais", "Costura", "Escultura", "Desenho", "Montanhismo", "Surfe", "Caminhada", "Ciclismo", "Acampamento", "Piquenique", "Pesca", "Canoagem", "Escalada", "Patinação", "Caça", "Observação de aves", "Passeio de barco", "Caminhada na floresta", "Mergulho", "Esqui aquático", "Andar a cavalo"],
   marcas_carro: [
     "Toyota", "Honda", "Ford", "Chevrolet", "Volkswagen", "Nissan",
@@ -78,8 +78,59 @@ export const wordsList = {
     "A Origem", "Star Wars", "E.T.", "Clube da Luta", "De Volta para o Futuro", "Matrix", "Os Caçadores da Arca Perdida", "Scarface",
     "O Resgate do Soldado Ryan", "O Show de Truman", "O Labirinto do Fauno", "O Iluminado", "Matrix"
   ],
+  profissões: [
+    "Médico", "Professor", "Advogado", "Engenheiro", "Arquiteto",
+    "Programador", "Farmacêutico", "Policial", "Bombeiro", "Dentista",
+    "Psicólogo", "Nutricionista", "Veterinário", "Eletricista", "Piloto",
+    "Cozinheiro", "Mecânico", "Jornalista", "Escritor", "Artista",
+    "Ator", "Diarista", "Designer", "Cientista", "Bartender",
+    "Carpinteiro", "Astronauta", "Modelo", "Agrônomo"
+  ],
+  estilos_musicais: [
+    "Rock", "Pop", "Hip Hop", "Jazz", "Blues",
+    "Country", "Rap", "Reggae", "Eletrônica", "Sertanejo",
+    "Funk", "Clássica", "Samba", "Forró", "Gospel",
+    "Punk", "Indie", "Metal", "R&B", "Folk"
+  ],
   
+  bandas: [
+    "The Beatles", "Queen", "Led Zeppelin", "Pink Floyd", "Rolling Stones",
+    "Nirvana", "U2", "Metallica", "Radiohead", "Coldplay",
+    "The Doors", "Guns N' Roses", "Red Hot Chili Peppers", "AC/DC", "Pearl Jam",
+    "Green Day", "The Who", "Oasis", "Linkin Park", "Arctic Monkeys",
+    "ABBA", "Fleetwood Mac", "Bee Gees", "Deep Purple", "Black Sabbath",
+    "Aerosmith", "R.E.M.", "The Police", "Blur", "Blur"
+  ],
   
-  // Adicione mais séries conhecidas se desejar
+  cantores_ou_cantoras: [
+    "Michael Jackson", "Madonna", "Elvis Presley", "Whitney Houston", "Prince",
+    "Beyoncé", "Adele", "Frank Sinatra", "Ed Sheeran", "David Bowie",
+    "Stevie Wonder", "Taylor Swift", "Bruno Mars", "Ariana Grande", "Bob Marley",
+    "Celine Dion", "John Lennon", "Rihanna", "Eminem", "Justin Bieber",
+    "Billie Eilish", "Shakira", "Mariah Carey", "Justin Timberlake", "Katy Perry",
+    "Lady Gaga", "Elton John", "Britney Spears", "Jennifer Lopez", "Alicia Keys"
+  ],
+  atores: [
+    "Tom Hanks", "Meryl Streep", "Denzel Washington", "Julia Roberts", "Leonardo DiCaprio",
+    "Scarlett Johansson", "Robert De Niro", "Cate Blanchett", "Brad Pitt", "Charlize Theron",
+    "Fernanda Montenegro", "Wagner Moura", "Sandra Bullock", "Al Pacino", "Jodie Foster",
+    "Natalie Portman", "Johnny Depp", "Jennifer Lawrence", "Will Smith", "Harrison Ford",
+    "Wagner Moura", "Fernanda Montenegro", "Lázaro Ramos", "Camila Pitanga", "Selton Mello",
+    "Débora Falabella", "Rodrigo Santoro", "Grazi Massafera", "Wagner Moura", "Fernanda Torres",
+    "Tony Ramos", "Glória Pires", "José Wilker", "Irandhir Santos", "Mariana Ximenes",
+    "Walmor Chagas", "Mariana Rios", "Cauã Reymond", "Tais Araújo", "Lima Duarte"
+  ],
+  objetos: [
+    "Lápis", "Madeira", "Relógio", "Cadeira", "Bola",
+    "Computador", "Garfo", "Chave", "Televisão", "Mesa",
+    "Copos", "Telefone", "Livro", "Caneta", "Pincel",
+    "Espelho", "Faca", "Escova de dentes", "Abajur", "Controle remoto",
+    "Óculos de sol", "Cama", "Guitarra", "Escova de cabelo", "Bicicleta",
+    "Carteira", "Quadro", "Fogão", "Fone de ouvido", "Bolsa",
+    "Ventilador", "Rádio", "Colchão", "Carrinho de brinquedo", "Máquina de lavar",
+    "Cofre", "Panela", "Tapete", "Tênis", "Relógio",
+    "Chapéu", "Guarda-chuva", "Cinto", "Esmalte", "Bule",
+    "Máquina fotográfica", "Tablet", "Chinelo"
+  ],
   
 };
