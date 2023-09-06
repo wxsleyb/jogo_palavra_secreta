@@ -28,10 +28,10 @@ function App() {
   
   const[pickedWord, setPickedWord] = useState("");
   const[pickedCategory, setPickedCategory] = useState("")
-  const[letters, setLetters] = useState("") // colocar ([]) dps pra ver se tem diferença
+  const[letters, setLetters] = useState([]) // colocar ([]) dps pra ver se tem diferença
 
   const[guessedLetters, setGuessedLetters] = useState([])
-  const[wrongLetters, SetWrongLetters] = useState([])
+  const[wrongLetters, setWrongLetters] = useState([])
   const[guesses, setGuesses] = useState(guessesTry)
   const[score, setScore] = useState(50)
   
@@ -52,28 +52,26 @@ function App() {
   },[words])
   // começa o jogo 
   const startGame = useCallback(() => {
-    // apagar todas as letras
+    // clear all letters
     clearLetterStates();
 
-    //pegar a palavra e a categoria
-    const{category, word} = pickWordAndCategory()
+    // choose a word
+    const { category, word } = pickWordAndCategory();
 
-    //criar um array de letras
+    console.log(category, word);
 
-    let wordLetters = word.split("")
-    wordLetters = wordLetters.map((letra) => letra.toLowerCase());
-    
+    let wordLetters = word.split("");
 
-    //preencher estados
+    wordLetters = wordLetters.map((l) => l.toLowerCase());
 
-    setPickedWord(word);
+    // console.log(category, word);
+
     setPickedCategory(category);
-    setLetters(wordLetters)
+    setPickedWord(word);
+    setLetters(wordLetters);
 
-    
-    setGameStage(stages[1].name)
-  }, [pickWordAndCategory])
-
+    setGameStage(stages[1].name);
+  }, [pickWordAndCategory]);
   //verifica o input da letra
   const verifyLetter = (letter) =>{
     const normalizedLetter = letter.toLowerCase()
@@ -90,7 +88,7 @@ function App() {
         ...actualGuessedLetters, normalizedLetter
       ]) 
     } else {
-      SetWrongLetters((actualWrongLetters)=>[
+      setWrongLetters((actualWrongLetters)=>[
         ...actualWrongLetters, normalizedLetter,
       ])
 
@@ -100,9 +98,12 @@ function App() {
   
   }
 
+  //reinicia as letras escolhidas, letras erradas
+  //e astentativas
   const clearLetterStates = () =>{
     setGuessedLetters([]);
-    SetWrongLetters([])
+    setWrongLetters([])
+    setGuesses(guessesTry)
   }
 
   //checa se as tentativas terminaram
