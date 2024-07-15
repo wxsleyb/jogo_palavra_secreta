@@ -10,9 +10,9 @@ import { useState, useEffect, useCallback } from 'react'
 import {wordsList} from "./data/words.jsx"
 
 //components
-import StartScreen from './components/StartScreen'
-import Game from './components/Game'
-import GameOver from './components/GameOver'
+import StartScreen from './components/StartScreen.jsx'
+import Game from './components/Game.jsx'
+import GameOver from './components/GameOver.jsx'
 
 const stages = [
   { id: 1, name: "start"},
