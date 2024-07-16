@@ -28,3 +28,28 @@ button{
 button:hover{
   background: #4022e9;
 }
+
+button {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  color: black;
+  background-color: white; 
+  margin-bottom: 10px;
+}
+
+select option {
+  padding: 10px;
+}
