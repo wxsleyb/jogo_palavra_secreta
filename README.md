@@ -1,4 +1,4 @@
-### Acesso ao Jogo
+# Acesso ao Jogo
 https://wxsleyb.github.io/jogo_palavra_secreta/
 
 # React + Vite
